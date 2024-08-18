@@ -10,7 +10,7 @@ export const CharacterCard = ({character}: PropsType) => {
 
   return (
     <div className={styles.card}>
-      <div>{character.name}</div>
+      <p>{character.name}</p>
       <Image src={character.image}
              width={300}
              height={300}
