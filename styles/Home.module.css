@@ -127,6 +127,11 @@
         padding: 4rem;
     }
 
+    .charactersWrap {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
     .grid {
         grid-template-columns: 1fr;
         margin-bottom: 120px;
@@ -198,6 +203,7 @@
 
 .cardsWrap {
     display: flex;
+    justify-content: center;
     gap: 50px;
     flex-wrap: wrap;
 }
