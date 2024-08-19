@@ -10,7 +10,7 @@
 
 .description {
     text-align: center;
-    font-size: 50px;
+    font-size: 100px;
     max-width: var(--max-width);
     width: 100%;
     z-index: 2;
@@ -157,7 +157,7 @@
     }
 
     .description {
-        font-size: 0.8rem;
+        font-size: 50px;
     }
 
     .description div {
