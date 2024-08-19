@@ -6,7 +6,7 @@ import {getLayout} from '@/components/Layout/Layout'
 function Home() {
   return (
     <>
-      <HeadMeta title={'Create Next App'}/>
+      <HeadMeta title={'Next Test Page'}/>
         <div className={styles.description}>
             Test Page Main
         </div>
